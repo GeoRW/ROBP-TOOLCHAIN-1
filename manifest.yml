@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ROBP-JAVAAPP
+  host: ROBP-JAVAAPP
+  disk_quota: 1024M
+  services:
+  - ROBP-JAVAAPP-cloudantNoSQLDB
